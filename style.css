@@ -163,6 +163,7 @@ button{
 .faqs{
     display: flex;
     flex-direction: column;
+    gap: 30px;
     height: 719px;
     padding: 80px;
 
@@ -181,16 +182,21 @@ background-color: gray;
     display: flex ;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    /* height: 80px; */
     width: 70vw;
     max-width: 70vw;
-    margin: 5px;
+    margin-top: 20px;
     background-color: rgb(38, 38, 38);
-    padding: 35px 35px 35px 35px;
+    padding: 25px;
     cursor: pointer;
+    font-size:23px;
 
 }
 .plus{
+    
     display: flex;
     justify-content: right;
+}
+.invert{
+    filter: invert(-1);
 }
